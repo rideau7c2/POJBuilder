@@ -3,12 +3,12 @@
     <!--this file was created by Eclipse Runnable JAR Export Wizard-->
     <!--ANT 1.7 is required                                        -->
     <target name="test">
-        <jar destfile="B:/Workspaces/WitWorkspace/POJBuilder/targer/Builder.jar" filesetmanifest="mergewithoutmain">
+        <jar destfile="targer/Builder.jar" filesetmanifest="mergewithoutmain">
             <manifest>
                 <attribute name="Main-Class" value="zaslonad.builderPatern.test.TestMain"/>
                 <attribute name="Class-Path" value="."/>
             </manifest>
-            <fileset dir="B:/Workspaces/WitWorkspace/POJBuilder/bin"/>
+            <fileset dir="bin"/>
         </jar>
     </target>
 </project>
