@@ -91,6 +91,7 @@ public class TxtBuilder implements DocumentBuilder{
 		valid(text);
 		sBuilder.append("\n\t")
 				.append(text);
+		isNotReady = false;
 		return this;
 	}
 
